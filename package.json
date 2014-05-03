@@ -1,0 +1,15 @@
+{
+  "name": "sync-queue",
+  "version": "0.0.1",
+  "description": "Simple queue for completing tasks in series",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git@github.com:technicalmachine/sync-queue.git",
+  "contributors": [
+    {"name" : "Tim Cameron Ryan", "email" : "tim@technical.io" },
+    {"name" : "Jon McKay", "email" : "jon@technical.io" }
+  ],
+  "license": "MIT"
+}
