@@ -25,4 +25,4 @@ queue.place(function two() {
 ```
 
 ## Description
-Use `place` to put things in the queue. They will start being executed automatically. Call `next` when you want the thing you put in the queue is finished.
+Use `place` to put things in the queue. They will start being executed automatically. Call `next` when you want the next thing in the queue to begin execution.
