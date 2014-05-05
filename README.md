@@ -10,7 +10,7 @@ var Queue = require('sync-queue')
 var queue = new Queue();
 
 queue.place(function one() {
-  console.log('I'm func one);
+  console.log("I'm func one");
 
   setTimeout(function() {
     console.log("and I'm still finishing up...");
@@ -19,7 +19,7 @@ queue.place(function one() {
 })
 
 queue.place(function two() {
-  console.log.bind(this, "I'm the last func.");
+  console.log("I'm the last func.");
   queue.next();
 });
 ```
