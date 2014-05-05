@@ -1,3 +1,10 @@
+// Copyright 2014 Technical Machine, Inc.
+//
+// Licensed under the MIT license
+// <LICENSE-MIT or http://opensource.org/licenses/MIT>. 
+// This file may not be copied, modified, or distributed
+// except according to those terms.
+
 function queue() {
 
   // Create an empty array of commands
