@@ -34,8 +34,8 @@ function queue() {
     // Call the command
     command();
   };
-  //Clearing quote
-  quote.clear = function(){
+  //Clearing queue
+  queue.clear = function(){
     queue.length = 0;
     queue.active = false;
   };
