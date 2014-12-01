@@ -34,6 +34,11 @@ function queue() {
     // Call the command
     command();
   };
+  //Clearing queue
+  queue.clear = function(){
+    queue.length = 0;
+    queue.active = false;
+  };
 
   return queue;
 }
