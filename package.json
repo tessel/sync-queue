@@ -1,6 +1,6 @@
 {
   "name": "sync-queue",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple queue for completing tasks in series",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,8 @@
   "repository": "git@github.com:technicalmachine/sync-queue.git",
   "contributors": [
     {"name" : "Tim Cameron Ryan", "email" : "tim@technical.io" },
-    {"name" : "Jon McKay", "email" : "jon@technical.io" }
+    {"name" : "Jon McKay", "email" : "jon@technical.io" },
+    {"name" : "Carlos Martin", "email" : "pirumpi@gmail.com"}
   ],
   "license": "MIT"
 }
