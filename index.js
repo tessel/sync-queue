@@ -18,6 +18,13 @@ function queue() {
     // If we're currently inactive, start processing
     if (!queue.active) queue.next();
   };
+  // Method for adding command chain to the queue at the beginning
+  queue.top = function (command) { 
+    // Push the command onto the command array
+    queue.unshift(command);
+    // If we're currently inactive, start processing
+    if (!queue.active) queue.next();
+  };
   // Method for calling the next command chain in the array
   queue.next = function () {
     // If this is the end of the queue
